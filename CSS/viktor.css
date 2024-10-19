@@ -1,0 +1,87 @@
+*{
+      box-sizing: border-box;
+      margin:0;
+      cursor:cell;
+    }
+      body{
+        
+        background-image: url("redbg.gif");
+        background-color:#e4f4f7;
+        font-family: ms gothic;
+        src: url(fonts/MS\ Gothic.ttf);
+        width: 70%;
+        margin: 3em auto;
+        text-align:center;
+        color:rgb(255, 61, 61);
+      }
+      #banner{
+        width:99%;
+      }
+
+      .container{
+        border: 3px dotted rgb(255, 18, 18);
+        align:center;
+        margin: auto;
+        padding:1em;
+        background-color:rgba(0, 0, 0, 0.9);
+        font-size:1.1em;
+      }
+      h1{
+        font-style: bold;
+        color:rgb(253, 0, 0);
+        font-size:2em;
+      
+      }
+      #eye{
+        /* width:7%; */
+        padding-left: .5em;
+        padding-right: .5em;
+        }
+
+        figure{
+           
+        }
+
+        .hero{
+            width:50%;
+        }
+        .photo{
+            width:50%;
+            padding:.3em;
+            border: 1px dotted red;
+        }
+
+        a{
+            color:rgb(255, 35, 35);
+            text-decoration: none;
+        }
+        a:hover{
+            font-style:italic;
+        }
+
+
+        /* -----------------MEDIA QUERIES----------------------------*/
+      
+
+      @media screen and (max-width:799px){
+        body{
+            width:95%;
+          }
+
+          .photo{
+            width:70%;
+          }
+      }
+
+      @media screen and (min-width:800px){
+       .gallery{
+            display:flex;
+            flex:25%;
+            max-width:66%;
+          justify-content: space-evenly;
+          text-align: center;
+        } 
+      }
+
+    
+  

@@ -1,0 +1,185 @@
+    *{
+      box-sizing: border-box;
+      margin:0;
+      cursor:cell;
+    }
+      body{
+        
+        background-image: url("purplesatinbg.gif");
+        background-color:#e4f4f7;
+        font-family: ms gothic;
+        src: url(fonts/MS\ Gothic.ttf);
+        width: 60%;
+        margin: 3em auto;
+        text-align:center;
+      }
+      #banner{
+        width:90%;
+      }
+
+      .container{
+        border: 3px double rgb(255, 80, 217);
+        align:center;
+        margin: auto;
+        padding:1em;
+        background-color:rgba(0, 0, 0, 0.6);
+      }
+      h1{
+        font-style: bold;
+        color:rgb(253, 0, 181);
+        font-size:2em;
+      
+      }
+      #eye{
+        width:7%;
+      }
+      nav{
+        flex-direction:row;
+        background-color:rgba(59, 0, 71, 0.7);
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px dotted rgb(234, 126, 255);
+      }
+
+      ul{
+        /* display:flex;
+        justify-content: space-around; */
+       margin:0;
+       padding:0;
+        text-decoration:none;
+      }
+
+      li {
+        /* display: inline-block;
+        width:200px; */
+        list-style:none;
+        line-height: 3em;
+        font-family:helvetica;
+      }
+      a{
+        text-decoration: none;
+        color:#ff70eeec;
+        font-weight:300;
+        font-size:1.3em;
+        
+      }
+      a:hover{
+        color:rgb(0, 231, 73);
+      }
+      li:hover{
+        font-style: italic;
+        text-decoration: none;
+        
+      }
+
+     /* .hero>img{
+        margin-top:1em;
+        width:93%;
+      } */
+      .cycle-slideshow {
+        
+        width:93%;
+        display:block;
+       margin-left:auto;
+       margin-right:auto;
+      }
+      .cycle-slideshow img {
+         width:100%; 
+       text-align: center;
+       padding:0;
+       display:inline-block;
+       margin-top:.9em;
+       margin-left:auto;
+       margin-right:auto;
+       justify-content: flex-end;
+      }
+/* --------------NOTE -----------------------*/
+      #note{
+        color:#ff70eeec;
+        font-size:1.4em;
+        padding:1em;
+      }
+/* --------------NOTE -----------------------*/
+
+      #pom{
+        width:55%;
+      }
+
+      footer {
+        color:rgb(255, 126, 177);
+        max-height: 5%;
+      }
+
+ /* --------------DATA -----------------------*/   
+      p {
+        color:#ffaef6ec;
+        font-size:1.2em;
+        padding:1em;
+      }
+
+      .mug{
+        width:50%;
+        padding:.6em;
+      }
+
+      h3{
+        color:#ffb4f6ec;
+      }
+ /* -----------------Rooms----------------------------*/
+      .button{
+        width:50%;
+      }
+      .button:hover{
+        width:51%;
+        cursor:crosshair;
+      }
+
+      .portal p:hover{
+        cursor:crosshair;
+        color:rgb(0, 231, 73);
+        font-style:italic;
+      }
+      
+
+      /* -----------------MEDIA QUERIES----------------------------*/
+
+     @media screen and (min-width:800px){
+
+      nav{
+        flex-direction:row;
+        background-color:rgba(59, 0, 71, 0.7);
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px dotted rgb(234, 126, 255);
+      }
+
+      ul{
+        display:flex;
+        justify-content: space-around;
+       margin:0;
+       padding:0;
+        text-decoration:none;
+      }
+
+      li {
+        /* display: inline-block;
+        width:200px; */
+        list-style:none;
+        line-height: 3em;
+        font-family:helvetica;
+      }
+
+    }
+
+    @media screen and (max-width:799px){
+      body{
+        width:95%;
+      }
+
+    }
+
+    @media screen and (min-width:801px) and (max-width:1000px){
+      body{
+        width:85%;
+      }
+     }
